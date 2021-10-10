@@ -1,10 +1,13 @@
+#!/usr/bin/env python3
+# coding: utf-8
+#_________________________________________import modules
 import pickle
 import os.path
 from tkinter import *
 import tkinter.messagebox
 from tkinter import ttk
 
-
+#_________________________________________Class Address
 class Address:
     """__init__() function as the class constructor"""
 
@@ -13,7 +16,7 @@ class Address:
         self.email = email
         self.phone = phone
 
-
+#_________________________________________Class AddressBook
 class AddressBook:
     def __init__(self, parent, title):
         self.parent = parent
