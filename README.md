@@ -25,7 +25,7 @@ An in-depth paragraph about your project and overview of use.
 * How to run the program
 
 ```bash
-$ python3 main.py
+$ python3 addressBook.py
 ```
 * Step-by-step bullets
 ```
@@ -61,6 +61,8 @@ This project is licensed under the [NAME HERE] License - see the LICENSE.md file
 ## Acknowledgments
 
 Inspiration, code snippets, etc.
+
+* <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 * [awesome-readme](https://github.com/matiassingers/awesome-readme)
 * [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
 * [dbader](https://github.com/dbader/readme-template)

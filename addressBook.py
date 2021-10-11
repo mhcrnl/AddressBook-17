@@ -26,10 +26,16 @@ class AddressBook:
         self.parent.protocol("WM_DELETE_WINDOW", self.on_exit)
 
         self.initialization()
+        self.icon()
+        
         self.bind()
         self.set_listbox()
 
         self.lbx_names.focus_set()
+
+    def icon(self):
+        p1=PhotoImage(file="phone.png")
+        self.parent.iconphoto(False, p1)
 
     def bind(self):
         self.lbx_names.bind('<ButtonRelease-1>', self.on_click_lb)
